@@ -16,7 +16,7 @@
 
 #### 5.项目首页没有文件夹名称
 确保 tomcat 配置中 `application context` 是 /，而不是 /ForestBlog。这是导致你们首页css样式全无的原因，因为引用css路径都是 /xxx/xxx.css
-![image](https://github.com/saysky/ForestBlog/blob/master/uploads/tomcat.png)
+
 
 具体情况请看步骤
 
@@ -46,12 +46,8 @@ forest_blog.sql: 数据库文件，请先创建数据库，然后以运行sql文
 1. 修改 UploadFileController.java 中上传路径，需要修改 rootPath 为你指定的 uploads 目录，如 `String rootPath ="E:/uploads/";` <br/>
 如果不修改，会出现无法上传失败；<br/>
 
-2. 给 IDEA 设置静态资源映射，在 tomcat 配置中 Deployment 里面添加，如图
-![image](https://github.com/saysky/ForestBlog/blob/master/uploads/tomcat2.png)
+2. 给 IDEA 设置静态资源映射，在 tomcat 配置中 Deployment 里面添加
 
-如果你是在 Linux 服务器上部署，需要在 Tomcat 配置文件中添加 <br/>
-在 tomcat/conf/server.xml 的 Host 标签内添加如下代码 <br/>
-`<Context path="/uploads" docBase="/www/uploads" debug="0" reloadable="true" />`
 
 如果不修改，会出现uploads的图片无法加载，无法显示上传目录的图片
 
