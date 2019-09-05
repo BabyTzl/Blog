@@ -1,23 +1,4 @@
-``````````最新消息，SpringCloud 博客、音乐、商城、论坛系统开发中，开源，[sens-parent](https://github.com/saysky/sens-parent) <br/>
-最新消息，SpringBoot博客已经开源，[SENS](https://github.com/saysky/SENS)
-# 关于项目
-
-该博客是基于SSM实现的一个个人博客系统，适合初学SSM和个人博客制作的同学学习。
-主要涉及技术包括的包括 Maven、Spring、SpringMVC、MyBatis、Redis、JSP等。
-前端采用Layui框架和扒了一个[网站](http://liuyanzhao.com)的前台样式。 <br/>
-详细介绍：[https://liuyanzhao.com/6347.html](https://liuyanzhao.com/6347.html)
-
-## 效果预览
-因博主服务器数量有限，目前该SSM博客已下线，不提供实时预览，大家可以本地部署。目前部署的是SpringBoot+MyBatis+FreeMarker的博客（已开源：[SENS](https://github.com/saysky/SENS)），样式差不多，特此说明。 <br/>
-预览地址：http://blog.liuyanzhao.com  <br/>
-前台效果图  <br/>
-![image](uploads/home.png)
-<br/>
-后台效果图  <br/>
-![image](uploads/admin.png)
-<br/>
-后台地址：/admin 或者 /login <br/>
-为了避免大家删除数据，暂时不给后台账号
+``````````
 
 ## 使用注意
 #### 1.开发工具的选择
@@ -38,12 +19,6 @@
 ![image](https://github.com/saysky/ForestBlog/blob/master/uploads/tomcat.png)
 
 具体情况请看步骤
-
-## 使用步骤
-任何问题都可以联系我 <br/>
-Q Q：847064370 <br/>
-微信：847064370 <br/>
-在线留言：[https://liuyanzhao.com/message.html](https://liuyanzhao.com/message.html)
 
 #### 1、克隆项目  <br/>
 克隆或者下载项目到本地，解压，主要分为三个部分：ForestBlog、uploads 和 forest_blog.sql <br/>
@@ -80,31 +55,6 @@ forest_blog.sql: 数据库文件，请先创建数据库，然后以运行sql文
 
 如果不修改，会出现uploads的图片无法加载，无法显示上传目录的图片
 
- 
-## 下载地址：
-Github地址：https://github.com/saysky/ForestBlog
-（如果可以帮忙点一次Star和Fork）
- 
-## 更新记录
-第二次更新：2018年11月26日 <br/>
-大更，重新规范了代码，完善了注释
-
-首次提交：2017年10月10日  <br/>
-
-### 新的架构博客已开源，需要的可以联系博主
-2019年2月(已完成) <br/>
-基于 SpringBoot+ElasticSearch+Shiro+FreeMarker+AdminLte实现，几乎重做，预览地址：http://blog.liuyanzhao.com <br/>
-[SENS](https://github.com/saysky/SENS)
-
-2019年7月(开发中)  <br/>
-前端使用 Vue Element UI改造，后端优化 <br/>
 
 
-## 请喝一杯奶茶
-请我喝一杯奶茶吧！
-插条广告：博主最近有点时间，长期接毕设定制，软件定制，Java问题解决 <br/>
-具体查看[有偿服务](https://liuyanzhao.com/bulletin/my-service)
-
-![image](https://github.com/saysky/ForestBlog/blob/master/uploads/donate.png)
-
-
+``````````
